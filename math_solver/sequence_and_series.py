@@ -47,4 +47,4 @@ def sec():
                 print ("enter corerct values ")
         print (a())
 
-sec()
+# sec()

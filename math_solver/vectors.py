@@ -27,4 +27,4 @@ def vector_calc():
         k_cap2 = int(input("what is the k cap ?:"))
 
         print (f"the cross product of the two vectors are :AXB===>{j_cap1*k_cap2 - k_cap1*j_cap2}i + {k_cap1*i_cap2-i_cap1*k_cap2}j+{i_cap1*j_cap2-j_cap1*i_cap2}k")
-vector_calc()
+# vector_calc()

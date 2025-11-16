@@ -79,4 +79,4 @@ def bas_calc():
         print("The percentage is:", result,"%")
 
 
-bas_calc()
+# bas_calc()

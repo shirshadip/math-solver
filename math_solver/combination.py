@@ -18,5 +18,5 @@ def combination_calculator():
     else:
          print("invalid input: r must be between 0 and n")
 
-if __name__ == "__main__":
-    combination_calculator()
+# if __name__ == "__main__":
+#     combination_calculator()

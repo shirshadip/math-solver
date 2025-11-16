@@ -35,4 +35,4 @@ def calculator():
     else:
         print("Invalid choice. Please enter 1 or 2 or 3.")
 
-calculator()
+# calculator()

@@ -17,5 +17,5 @@ def permutation_calculator():
         print(f"The number of permutations of {n} items taken {r} at a time is: {result}")
     except ValueError:
         print("Invalid input. Please enter non-negative integers for n and r.")
-if __name__ == "__main__":
-    permutation_calculator()
+# if __name__ == "__main__":
+#     permutation_calculator()

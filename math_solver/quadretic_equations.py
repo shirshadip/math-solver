@@ -9,5 +9,5 @@ def quadretic():
     root2 = (-b - d) / (2*a)
 
     return root1,",", root2
-print(quadretic())
+# print(quadretic())
 

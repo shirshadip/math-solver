@@ -3,7 +3,7 @@ choose = input ("which type of matrix you want-->"
                 "\n 1.1D MATRIX"
                 "\n 2.2D MATRIX"
                 
-                "===========>>")
+                "\n===========>>")
 if choose == "1":
     def matrix():
         print ("_"*5,"Matrix calculator","_"*30)
@@ -29,7 +29,8 @@ if choose == "1":
                         "\n 6. Determinant"
                         "\n 7. Rank"
                         "\n 8.Eigenvalues & Eigenvectors"
-                        "input the option you want ----->")
+                        "input the option you want \n"
+                        "----->")
         try:
             if options == "1":
                 print("_"*5,"Addition","_"*30)
@@ -37,6 +38,13 @@ if choose == "1":
                 print (f"The addition of {first }and {second} Matrix is ={addition}")
         except ValueError:
             print ("pleease input the matrices correctly")
+        try:
+            if options == "2":
+                print("_"*5,"subtraction","_"*30)
+                addition=first-second
+                print (f"The subtraction of {first }and {second} Matrix is ={addition}")
+        except ValueError:
+            print ("pleease input the matrices correctly")
 
 
-    matrix()
+    # matrix()

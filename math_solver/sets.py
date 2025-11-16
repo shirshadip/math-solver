@@ -17,4 +17,4 @@ def set_calculator():
     else:
         print("Invalid operation. Please enter one of the following: union, intersection, difference, symmetric_difference.")
     return result
-set_calculator()
+# set_calculator()
